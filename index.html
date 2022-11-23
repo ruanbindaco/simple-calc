@@ -13,26 +13,26 @@
 <body>
     <div class="background d-flex justify-content-center">
         <div class="calculator d-flex flex-column align-items-center">
-            <h2>Calculadora<i class="bi bi-calculator-fill"></i></h2>
+            <h2><i class="bi bi-calculator-fill"></i> Calculadora</h2>
             <p id="result" class="d-flex justify-content-end align-items-center"></p>
                 <table>                 
                     <tr class="col-12">
                         <td class="col-3"><button class="btn button btn-danger" onclick="clean()">C</td>
-                        <td class="col-3"><button class="button" onclick="back()"><i class="bi bi-backspace"></i></td>
-                        <td class="col-3"><button class="button" onclick="insert('/')">÷</i></button></td>
-                        <td class="col-3"><button class="button" onclick="insert('*')"><i class="bi bi-x"></button></td>
+                        <td class="col-3"><button class="btn button btn-danger" onclick="back()"><i class="bi bi-backspace"></i></td>
+                        <td class="col-3"><button class="button math-buttons" onclick="insert('/')">÷</i></button></td>
+                        <td class="col-3"><button class="button math-buttons" onclick="insert('*')"><i class="bi bi-x"></button></td>
                     </tr>
                     <tr>
                         <td><button class="button" onclick="insert('7')">7</button></td>
                         <td><button class="button" onclick="insert('8')">8</button></td>
                         <td><button class="button" onclick="insert('9')">9</button></td>
-                        <td><button class="button" onclick="insert('-')"><i class="bi bi-dash"></i></button></td>
+                        <td><button class="button math-buttons" onclick="insert('-')"><i class="bi bi-dash"></i></button></td>
                     </tr>
                     <tr>
                         <td><button class="button" onclick="insert('4')">4</button></td>
                         <td><button class="button" onclick="insert('5')">5</button></td>
                         <td><button class="button" onclick="insert('6')">6</button></td>
-                        <td><button class="button" onclick="insert('+')"><i class="bi bi-plus"></i></button></td>
+                        <td><button class="button math-buttons" onclick="insert('+')"><i class="bi bi-plus"></i></button></td>
                     </tr>
                     <tr>
                         <td><button class="button" onclick="insert('1')">1</button></td>

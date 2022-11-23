@@ -46,6 +46,11 @@
 
 .equal-button{
     height: 106px;
+    background-color: rgb(0, 255, 42);
+}
+
+.math-buttons{
+    background-color: orange;
 }
 
 #result{
