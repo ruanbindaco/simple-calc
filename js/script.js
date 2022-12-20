@@ -6,7 +6,6 @@ function insert(num){
             if (isNaN(numero[numero.length - 1]) && isNaN(num)) {
                 document.getElementById('result').innerHTML = numero.replace(/.$/, num);
             } else {
-
                 document.getElementById('result').innerHTML = numero + num;
             }
         } else {
